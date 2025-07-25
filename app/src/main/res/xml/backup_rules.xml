@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include/exclude rules for backup -->
+    <exclude domain="database" path="game_cache.db" />
+    <exclude domain="sharedpref" path="temp_prefs.xml" />
+</full-backup-content>

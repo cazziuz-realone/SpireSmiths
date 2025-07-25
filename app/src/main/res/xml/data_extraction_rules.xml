@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Include/exclude rules for cloud backup -->
+        <exclude domain="database" path="game_cache.db" />
+    </cloud-backup>
+    
+    <device-transfer>
+        <!-- Include/exclude rules for device transfer -->
+        <exclude domain="database" path="game_cache.db" />
+    </device-transfer>
+</data-extraction-rules>
